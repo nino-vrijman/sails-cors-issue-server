@@ -23,7 +23,7 @@ module.exports.routes = {
   'GET /test': {
     action: 'user/test',
     cors: {
-      allowOrigins: ['http://localhost:3000'],
+      allowOrigins: ['https://some-domain.com'],
     },
   },
 
